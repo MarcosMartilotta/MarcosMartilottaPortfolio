@@ -2,8 +2,8 @@
 
 import { Subtitle } from "../styled-components/sectionTitle.styled";
 
-const SectionTitle = () => {
-  return <Subtitle></Subtitle>;
+const SectionTitle = ({ title }) => {
+  return <Subtitle>{title}</Subtitle>;
 };
 
 export default SectionTitle;
