@@ -10,7 +10,7 @@ export const SkillsStyled = styled.section`
   color: ${theme.letterColor};
 
   .skillsContainer {
-    padding-left: 12rem;
+    padding-left: 16rem;
     width: 50rem;
     min-width: 32.4rem;
     display: grid;
