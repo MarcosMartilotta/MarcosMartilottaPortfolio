@@ -17,24 +17,31 @@ html {
 
 body {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
   background-color: black;
 }
 
 header, main, footer{
-  width: 100%;
+  width: 100vw;
   height: contain;
+  overflow-x: hidden;
+
 }
 
 main {
   position: relative;
   display: grid;
-  justify-items: center;
+  justify-items: left;
   grid-template-rows: auto;
   gap: 9rem;
 }
 
+@media (min-width: 576px){
+  main{
+    justify-items: center;
+  }
+}
 
 
 #root{

@@ -1,15 +1,17 @@
 import SectionTitle from "../../components/SectionTitle";
-import { ContactStyled } from "./styled-components/contact.styled";
-import { FormContainer } from "./styled-components/form.styled";
-
+import { FormContainer } from "./styled-components/formContainer.styled";
+import { ContactSection } from "./styled-components/ContactSection.styled";
+import ContactForm from "./components/ContactForm";
 const Contact = () => {
   return (
-    <ContactStyled>
+    <ContactSection>
       <div className="titleContainer">
         <SectionTitle title="Contact" />
       </div>
-      <FormContainer></FormContainer>
-    </ContactStyled>
+      <FormContainer>
+        <ContactForm></ContactForm>
+      </FormContainer>
+    </ContactSection>
   );
 };
 

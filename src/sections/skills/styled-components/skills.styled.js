@@ -5,15 +5,15 @@ export const SkillsStyled = styled.section`
   height: 100%;
   padding: 0 2rem 8rem 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   color: ${theme.letterColor};
 
   .skillsContainer {
-    padding-left: 16rem;
-    width: 50rem;
-    min-width: 32.4rem;
+    padding-right: 6rem;
+    width: 40rem;
     display: grid;
+    justify-content: right;
     grid-template-columns: repeat(5, 4rem);
     grid-template-rows: repeat(2, 4rem);
     gap: 2rem;

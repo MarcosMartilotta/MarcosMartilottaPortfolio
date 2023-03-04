@@ -17,10 +17,10 @@ export const AboutStyled = styled.section`
   .paragraphContainer {
     position: relative;
     p {
-      min-width: 32.4rem;
       font-size: 1.5rem;
       letter-spacing: 0.1rem;
       padding-left: 12rem;
+      width: 80vw;
       @media (min-width: 576px) {
         font-size: 1.5rem;
         width: 50rem;
