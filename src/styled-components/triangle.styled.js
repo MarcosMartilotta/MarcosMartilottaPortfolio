@@ -1,9 +1,13 @@
 import styled from "styled-components";
+import { theme } from "../theme/theme";
 
 export const StyledTriangle = styled.div`
-  position: absolute;
-  left: 8rem;
-  width: 2rem;
-  height: 2rem;
-  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(
+    to bottom left,
+    ${theme.veryLightBlue} 30%,
+    ${theme.lightBlue} 30%,
+    black 50%
+  );
 `;

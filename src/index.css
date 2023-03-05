@@ -43,6 +43,25 @@ main {
   }
 }
 
+.leftBar{
+  position: absolute;
+  left: 0;
+  width: 3rem;
+  height: 100%;
+  -webkit-box-shadow: 18px 6px 107px 200px rgba(0,0,0,0.79);
+  -moz-box-shadow: 18px 6px 107px 200px rgba(0,0,0,0.79);
+  box-shadow: 18px 6px 107px 200px rgba(0,0,0,0.79);
+  background-color: rgba(0,0,0,0.79);
+  
+}
+
+@media(max-width: 576px){
+.leftBar
+  {-webkit-box-shadow: 8px 6px 107px 200px rgba(0,0,0,0.79);
+  -moz-box-shadow: 8px 6px 107px 200px rgba(0,0,0,0.79);
+  box-shadow: -80px 6px 107px 200px rgba(0,0,0,0.79);
+}
+}
 
 #root{
   width: 100%;

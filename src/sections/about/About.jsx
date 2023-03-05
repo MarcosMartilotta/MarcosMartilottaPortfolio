@@ -9,7 +9,9 @@ const About = () => {
         <SectionTitle title="About"></SectionTitle>
       </div>
       <div className="paragraphContainer">
-        <Triangle />
+        <div className="triangleContainer">
+          <Triangle />
+        </div>
         <p>
           I am currently looking for my first professional experience in the IT
           world. I was self-taught in front end technologies and Every day I

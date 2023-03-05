@@ -5,6 +5,7 @@ import Skills from "../sections/skills/Skills";
 import Projects from "../sections/projects/Projects";
 import Contact from "../sections/contact/Contact";
 import Footer from "../sections/footer/Footer";
+import SectionsRule from "../components/SectionsRule";
 
 const Layout = () => {
   return (
@@ -18,6 +19,8 @@ const Layout = () => {
         <Projects></Projects>
         <Skills></Skills>
         <Contact></Contact>
+        <SectionsRule />
+        <div className="leftBar"></div>
       </main>
       <footer>
         <Footer></Footer>
