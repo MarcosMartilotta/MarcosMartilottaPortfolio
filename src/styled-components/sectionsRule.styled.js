@@ -11,8 +11,9 @@ export const Rule = styled.div`
   box-shadow: -18px 6px 107px 200px rgba(0, 0, 0, 0.79);
 
   @media (max-width: 576px) {
-    -webkit-box-shadow: -50px 6px 107px 200px rgba(0, 0, 0, 0.79);
-    -moz-box-shadow: -9px 6px 107px 200px rgba(0, 0, 0, 0.79);
-    box-shadow: 80px 6px 107px 200px rgba(0, 0, 0, 0.79);
+    width: 0;
+    -webkit-box-shadow: -140px 6px 107px 200px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: -140px 6px 107px 200px rgba(0, 0, 0, 0.79);
+    box-shadow: 140px 6px 107px 200px rgba(0, 0, 0, 0.79);
   }
 `;

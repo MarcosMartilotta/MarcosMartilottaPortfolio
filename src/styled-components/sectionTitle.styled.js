@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { theme } from "../theme/theme.js";
 export const Subtitle = styled.h2`
   color: ${theme.letterColor};
+  text-decoration: underline;
   @media (min-width: 576px) {
     font-size: 2rem;
   }
