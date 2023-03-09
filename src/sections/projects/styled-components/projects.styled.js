@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
 export const StyledProjects = styled.section`
-  position: relative;
-  height: 24rem;
   width: 54rem;
+  height: 24rem;
+  position: relative;
   padding: 0 2rem 8rem 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   @media (min-width: 576px) {
     width: 54rem;
     height: 42rem;
@@ -25,48 +23,28 @@ export const StyledProjects = styled.section`
 
   @media (min-width: 1200px) {
     height: 42rem;
-    width: 80rem;
+    width: 84rem;
   }
   .projectsContainer {
     position: absolute;
     left: 2rem;
     width: 74rem;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 4rem;
+    top: 8rem;
 
     @media (min-width: 576px) {
-      width: 80rem;
+      width: 84rem;
     }
 
     @media (min-width: 768px) {
-      width: 100rem;
+      width: 104rem;
     }
 
     @media (min-width: 992px) {
-      width: 100rem;
+      width: 104rem;
     }
 
     @media (min-width: 1200px) {
-      width: 100rem;
-    }
-    div {
-      img {
-        margin: 2rem;
-        width: 4rem;
-        height: 4rem;
-
-        @media (min-width: 992px) {
-          width: 6rem;
-          height: 6rem;
-        }
-
-        @media (min-width: 1200px) {
-          width: 8rem;
-          height: 8rem;
-        }
-      }
+      width: 104rem;
     }
   }
 

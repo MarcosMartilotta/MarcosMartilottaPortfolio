@@ -3,8 +3,10 @@ import { Card } from "../styled-components/projectCard.styled";
 const ProjectCard = ({ number, projectName }) => {
   return (
     <Card>
-      <div>{number}</div>
-      <div>{projectName}</div>
+      <div className="number">{number}.</div>
+      <div className="projectName">{projectName}</div>
+      <div className="topTrapeze"></div>
+      <div className="bottomTrapeze"></div>
     </Card>
   );
 };
