@@ -71,9 +71,11 @@ export const Nav = styled.nav`
     z-index: 1;
     transition: 0.5s;
 
-    &.active {
-      right: 0px;
-      opacity: 1;
+    @media (max-width: 576px) {
+      &.active {
+        right: 0px;
+        opacity: 1;
+      }
     }
   }
 `;
