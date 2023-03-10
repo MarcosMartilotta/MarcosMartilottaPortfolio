@@ -22,14 +22,13 @@ export const Card = styled.div`
   @media (min-width: 992px) {
     width: 24rem;
     height: 24rem;
+    &:hover {
+      transform: translateY(10px);
+    }
   }
 
   @media (min-width: 1200px) {
     width: 24rem;
-  }
-
-  &:hover {
-    transform: translateY(10px);
   }
 
   .number {
