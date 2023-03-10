@@ -25,7 +25,7 @@ const Layout = () => {
   });
   const propsSkills = useSpring({
     opacity: inViewSkills ? 1 : 0,
-    transform: inViewSkills ? "translateY(0)" : "translateY(1000px)",
+    transform: inViewSkills ? "translateY(0)" : "translateY(50px)",
   });
   const propsContact = useSpring({
     opacity: inViewContact ? 1 : 0,
@@ -42,15 +42,15 @@ const Layout = () => {
         <animated.div ref={refAbout} style={propsAbout}>
           <About></About>
         </animated.div>
-        <animated.div ref={refProjects} style={propsProjects}>
+        <div ref={refProjects} style={propsProjects}>
           <Projects></Projects>
-        </animated.div>
-        <animated.div ref={refSkills} style={propsSkills}>
+        </div>
+        <div ref={refSkills} style={propsSkills}>
           <Skills></Skills>
-        </animated.div>
-        <animated.div ref={refContact} style={propsContact}>
+        </div>
+        <div ref={refContact} style={propsContact}>
           <Contact></Contact>
-        </animated.div>
+        </div>
         <SectionsRule />
         <div className="leftBar"></div>
       </main>
