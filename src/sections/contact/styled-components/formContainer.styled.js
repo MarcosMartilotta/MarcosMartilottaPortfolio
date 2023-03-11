@@ -9,7 +9,7 @@ export const FormContainer = styled.div`
   justify-content: center;
   align-items: top;
   @media (min-width: 576px) {
-    width: 54rem;
+    width: 50rem;
     justify-content: right;
   }
 

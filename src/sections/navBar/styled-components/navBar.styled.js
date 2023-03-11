@@ -50,7 +50,7 @@ export const Nav = styled.nav`
       width: 80rem;
     }
 
-    li {
+    a {
       width: 50%;
       height: 4rem;
       margin-bottom: 4rem;
