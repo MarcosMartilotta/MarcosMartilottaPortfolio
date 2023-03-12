@@ -3,6 +3,7 @@ import { theme } from "../../../theme/theme";
 
 export const Nav = styled.nav`
   position: fixed;
+  padding-top: 2rem;
   z-index: 2;
   width: 100%;
   height: 6rem;
@@ -34,6 +35,7 @@ export const Nav = styled.nav`
       right: 0;
       top: 3rem;
       flex-direction: row;
+      justify-content: right;
       width: 50rem;
       font-size: 2rem;
     }
@@ -51,12 +53,26 @@ export const Nav = styled.nav`
     }
 
     a {
-      width: 50%;
+      width: contain;
       height: 4rem;
       margin-bottom: 4rem;
       cursor: pointer;
       text-align: right;
       color: ${theme.letterColor};
+      transition: 2s;
+
+      @media (min-width: 576px) {
+        margin-left: 8rem;
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      &.active {
+        text-decoration: underline;
+      }
     }
   }
 

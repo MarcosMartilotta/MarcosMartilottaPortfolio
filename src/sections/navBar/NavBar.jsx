@@ -13,6 +13,7 @@ const NavBar = () => {
     <Nav>
       <ul className={`itemsContainer ${active ? " active" : ""}`}>
         <Link
+          activeClass="active"
           to="about"
           spy={true}
           smooth={true}
@@ -23,6 +24,7 @@ const NavBar = () => {
           About
         </Link>
         <Link
+          activeClass="active"
           to="projects"
           spy={true}
           smooth={true}
@@ -33,20 +35,22 @@ const NavBar = () => {
           Projects
         </Link>
         <Link
+          activeClass="active"
           to="skills"
           spy={true}
           smooth={true}
-          offset={-150}
+          offset={-190}
           duration={500}
           onClick={handleClick}
         >
           Skills
         </Link>
         <Link
+          activeClass="active"
           to="contact"
           spy={true}
           smooth={true}
-          offset={-150}
+          offset={-260}
           duration={500}
           onClick={handleClick}
         >

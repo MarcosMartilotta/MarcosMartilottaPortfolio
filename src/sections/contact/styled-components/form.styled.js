@@ -30,7 +30,13 @@ export const Form = styled.form`
     padding: 0.5rem;
     width: 100%;
     text-align: left;
-    background-color: ${theme.backgroundColor};
-    color: ${theme.letterColor};
+    background: rgb(27, 122, 251);
+    background: linear-gradient(
+      135deg,
+      rgba(27, 122, 251, 1) 0%,
+      rgba(173, 197, 247, 1) 47%
+    );
+    color: black;
+    cursor: pointer;
   }
 `;
