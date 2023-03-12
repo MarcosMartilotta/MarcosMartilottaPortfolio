@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   padding-top: 2rem;
   z-index: 2;
   width: 100%;
-  height: 6rem;
+  height: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ export const Nav = styled.nav`
 
   .backGroundItems {
     position: absolute;
-    top: 6rem;
+    top: 8rem;
     right: -2000px;
     background-color: ${theme.backgroundColor};
     opacity: 0;

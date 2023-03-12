@@ -5,7 +5,7 @@ export const HeroStyled = styled.section`
   position: relative;
   height: 50rem;
   width: 100%;
-  padding: 8rem 2rem;
+  padding: 10rem 2rem;
   display: flex;
   justify-content: left;
   background-color: ${theme.backgroundColor};
