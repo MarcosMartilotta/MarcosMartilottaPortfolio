@@ -2,15 +2,18 @@ import styled from "styled-components";
 import { theme } from "../../../theme/theme";
 export const HeroTitleStyled = styled.h1`
   position: relative;
-  min-width: 32.4rem;
   font-size: 5.5rem;
   letter-spacing: -0.2rem;
-  line-height: 5.88rem;
+  line-height: 5.44rem;
   font-weight: 300;
   color: ${theme.letterColor};
+  width: 70vw;
+  min-width: 33rem;
+  margin-left: 2rem;
 
   @media (min-width: 576px) {
     width: 50rem;
+    line-height: 6rem;
     font-size: 6.6rem;
   }
 
@@ -34,6 +37,8 @@ export const HeroTitleStyled = styled.h1`
 
   div:nth-child(1) {
     text-align: right;
+    @media (max-width: 576px) {
+    }
   }
   div:nth-child(2) {
     text-align: right;
