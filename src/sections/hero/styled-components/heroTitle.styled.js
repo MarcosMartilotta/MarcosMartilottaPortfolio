@@ -45,6 +45,7 @@ export const HeroTitleStyled = styled.h1`
   }
   div:nth-child(3) {
     text-align: left;
+    position: relative;
   }
   div:nth-child(4) {
     text-align: right;
