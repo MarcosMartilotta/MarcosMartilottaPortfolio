@@ -8,7 +8,7 @@ export const HeroTitleStyled = styled.h1`
   font-weight: 300;
   color: ${theme.letterColor};
   width: 70vw;
-  min-width: 33rem;
+  min-width: 34rem;
   margin-left: 2rem;
 
   @media (min-width: 576px) {
