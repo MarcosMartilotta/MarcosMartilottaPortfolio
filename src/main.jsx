@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Layout from "./layout/Layout";
+import { Suspense, lazy } from "react";
 import "./index.css";
+import Loader from "./components/Loader";
 
+const LazyLayout = lazy(() => import("./layout/Layout"));
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Layout />
+    <Suspense fallback={<Loader />}>
+      <LazyLayout />
+    </Suspense>
   </React.StrictMode>
 );
