@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Suspense, lazy } from "react";
 import "./index.css";
-import Loader from "./components/Loader.jsx";
+import Loader from "./components/Loader";
 
 const LazyLayout = lazy(() => import("./layout/Layout"));
 
