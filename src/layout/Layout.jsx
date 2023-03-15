@@ -34,7 +34,7 @@ const Layout = () => {
   });
 
   return (
-    <>
+    <div>
       <header>
         <NavBar></NavBar>
       </header>
@@ -58,7 +58,7 @@ const Layout = () => {
       <footer>
         <Footer></Footer>
       </footer>
-    </>
+    </div>
   );
 };
 
