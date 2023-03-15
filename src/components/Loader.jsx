@@ -22,8 +22,15 @@ const Loader = () => {
 
   return (
     <LoaderStyled>
-      <h1>Loading. . .</h1>
-      <ArrayDisplay arr={listOfIcons} />
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
+      <div className="banter-loader__box"></div>
     </LoaderStyled>
   );
 };
