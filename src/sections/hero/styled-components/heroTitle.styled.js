@@ -2,19 +2,19 @@ import styled from "styled-components";
 import { theme } from "../../../theme/theme";
 export const HeroTitleStyled = styled.h1`
   position: relative;
-  font-size: 5.5rem;
+  font-size: 5.4rem;
   letter-spacing: -0.2rem;
   line-height: 5.44rem;
   font-weight: 300;
   color: ${theme.letterColor};
-  width: 70vw;
-  min-width: 34rem;
-  margin-left: 2rem;
+  width: 65vw;
+  min-width: 35rem;
 
   @media (min-width: 576px) {
     width: 50rem;
     line-height: 6rem;
     font-size: 6.6rem;
+    margin-left: 2rem;
   }
 
   @media (min-width: 768px) {
