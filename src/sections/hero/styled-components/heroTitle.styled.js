@@ -13,7 +13,7 @@ export const HeroTitleStyled = styled.h1`
   @media (min-width: 576px) {
     width: 50rem;
     line-height: 6rem;
-    font-size: 6.6rem;
+    font-size: 7rem;
     margin-left: 2rem;
   }
 

@@ -1,6 +1,7 @@
 import { HeroTitleStyled } from "../styled-components/heroTitle.styled";
 import TitleDetail from "./TitleDetail";
 import Typed from "react-typed";
+import PhotoWithBackground from "./PhotoWithBackground";
 
 const HeroTitle = () => {
   return (

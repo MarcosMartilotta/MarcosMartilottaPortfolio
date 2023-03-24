@@ -11,22 +11,10 @@ export const HeroStyled = styled.section`
   background-color: ${theme.backgroundColor};
 
   @media (min-width: 576px) {
-    padding: 10rem 2rem;
+    padding: 20rem 2rem;
     width: initial;
   }
   @media (min-width: 768px) {
-    padding: 8rem 12rem;
-  }
-  .photoContainer {
-    position: absolute;
-    background-color: white;
-    height: 10rem;
-    width: 10rem;
-    bottom: 4rem;
-    @media (min-width: 768px) {
-      height: 11rem;
-      width: 11rem;
-      top: 8rem;
-    }
+    padding: 20rem 12rem;
   }
 `;

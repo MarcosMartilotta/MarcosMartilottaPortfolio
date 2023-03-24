@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { LoaderStyled } from "../styled-components/iconsLoader.style";
 
-const ArrayDisplay = ({ arr }) => {
+/* const ArrayDisplay = ({ arr }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const ArrayDisplay = ({ arr }) => {
   }, [arr]);
 
   return <div>{arr[currentIndex]}</div>;
-};
+}; */
 
 const Loader = () => {
   const listOfIcons = [":)", ":D", ":Q", ":P", ":O", ":*"];
