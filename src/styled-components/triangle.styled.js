@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { theme } from "../theme/theme";
 
 export const StyledTriangle = styled.div`
-  width: 2.5rem;
+  width: 3rem;
   height: 2.5rem;
-  background: linear-gradient(
-    to bottom left,
-    ${theme.veryLightBlue} 30%,
-    ${theme.lightBlue} 30%,
-    black 50%
-  );
+
+  img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg);
+  }
 `;

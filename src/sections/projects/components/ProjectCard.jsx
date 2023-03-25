@@ -14,8 +14,12 @@ const ProjectCard = ({ number, projectName, pageLink, repoLink, preview }) => {
       <div className="bottomTrapeze"></div>
       <div className="background">
         <div className="linksContainer">
-          <a href={pageLink}>Visit</a>
-          <a href={repoLink}>Repository</a>
+          <a href={pageLink} target="_blank">
+            Visit
+          </a>
+          <a href={repoLink} target="_blank">
+            Repository
+          </a>
         </div>
         <img src={triangle} alt="background triangle of the card" />
         <img src={trapeze} alt="background trapeze of the card" />
