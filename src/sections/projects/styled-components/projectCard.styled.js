@@ -20,6 +20,7 @@ export const Card = styled.div`
       width: 100%;
       height: 99%;
       object-fit: cover;
+      opacity: 0.2;
     }
   }
   .background {
@@ -41,10 +42,14 @@ export const Card = styled.div`
 
       a {
         text-decoration: none;
-        color: #000;
-        font-size: 2.5rem;
+        color: ${theme.letterColor};
+        font-size: 1.5rem;
         text-shadow: 0px -1px 3px rgba(0, 0, 0, 0.99);
         cursor: pointer;
+
+        @media (min-width: 568px) {
+          font-size: 2.5rem;
+        }
       }
     }
     img {

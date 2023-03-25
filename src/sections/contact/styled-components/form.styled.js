@@ -38,5 +38,6 @@ export const Form = styled.form`
     );
     color: black;
     cursor: pointer;
+    border: none;
   }
 `;

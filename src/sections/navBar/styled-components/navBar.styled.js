@@ -11,8 +11,17 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   background-color: ${theme.backgroundColor};
-  opacity: 0.9;
-
+  opacity: 0.95;
+  .logo {
+    width: 6rem;
+    z-index: 999;
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      width: 100%;
+    }
+  }
   .itemsContainer {
     position: absolute;
     top: 8rem;

@@ -2,6 +2,7 @@ import NavHamburguer from "./components/NavHamburguer";
 import { Nav } from "./styled-components/navBar.styled";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import logo from "../../assets/imgs/logo.png";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -11,6 +12,16 @@ const NavBar = () => {
   };
   return (
     <Nav>
+      {/*       <Link
+        className="logo"
+        to="hero"
+        spy={true}
+        smooth={true}
+        offset={-150}
+        duration={500}
+      >
+        <img src={logo} alt="logo of the website" />
+      </Link> */}
       <ul className={`itemsContainer ${active ? " active" : ""}`}>
         <Link
           activeClass="active"

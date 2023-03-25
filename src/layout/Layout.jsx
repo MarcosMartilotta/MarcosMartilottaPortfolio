@@ -39,7 +39,7 @@ const Layout = () => {
         <NavBar></NavBar>
       </header>
       <main>
-        <Hero></Hero>
+        <Hero id="hero"></Hero>
         <animated.section id="about" ref={refAbout} style={propsAbout}>
           <About></About>
         </animated.section>

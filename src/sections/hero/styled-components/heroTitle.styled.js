@@ -4,7 +4,7 @@ export const HeroTitleStyled = styled.h1`
   position: relative;
   font-size: 5.4rem;
   letter-spacing: -0.2rem;
-  line-height: 5.44rem;
+  line-height: 5rem;
   font-weight: 300;
   color: ${theme.letterColor};
   width: 65vw;
@@ -20,7 +20,7 @@ export const HeroTitleStyled = styled.h1`
   @media (min-width: 768px) {
     width: 60rem;
     font-size: 7.88rem;
-    line-height: 7.88rem;
+    line-height: 7rem;
   }
 
   @media (min-width: 992px) {

@@ -16,4 +16,11 @@ export const Rule = styled.div`
     -moz-box-shadow: -140px 6px 107px 200px rgba(0, 0, 0, 0.79);
     box-shadow: 140px 6px 107px 200px rgba(0, 0, 0, 0.79);
   }
+
+  .logo {
+    width: 3rem;
+    img {
+      width: 3rem;
+    }
+  }
 `;

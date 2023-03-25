@@ -32,7 +32,7 @@ export const PhotoStyled = styled.div`
 
   img:nth-child(1) {
     position: absolute;
-    width: 25rem;
+    width: 30rem;
     object-fit: cover;
     top: 7rem;
   }

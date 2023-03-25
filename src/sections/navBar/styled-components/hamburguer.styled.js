@@ -26,10 +26,10 @@ export const HamburguerContainer = styled.div`
     span {
       position: absolute;
       display: block;
-      height: 0.2rem;
+      height: 0.4rem;
       width: 100%;
       background-color: ${theme.letterColor};
-      border-radius: 2rem;
+      border-radius: 0.1rem;
       transition: 0.3s;
       transition-delay: 0.5s;
     }
@@ -61,7 +61,7 @@ export const HamburguerContainer = styled.div`
   }
 
   &.active span:nth-child(3) {
-    bottom: 2.2rem;
+    bottom: 2rem;
     width: 100%;
     transform: rotate(90deg);
     transition-delay: 0s;

@@ -15,10 +15,10 @@ const ProjectCard = ({ number, projectName, pageLink, repoLink, preview }) => {
       <div className="background">
         <div className="linksContainer">
           <a href={pageLink} target="_blank">
-            Visit
+            Website
           </a>
           <a href={repoLink} target="_blank">
-            Repository
+            View Repository
           </a>
         </div>
         <img src={triangle} alt="background triangle of the card" />
