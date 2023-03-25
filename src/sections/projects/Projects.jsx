@@ -4,6 +4,10 @@ import ProjectCard from "./components/ProjectCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import climApp from "./assets/climApp.jpeg";
+import fairPrice from "./assets/fairPrice.jpeg";
+import mp4Player from "./assets/reproductorVideos.jpg";
+import todoList from "./assets/ToDoList.jpg";
 
 const Projects = () => {
   const settings = {
@@ -17,10 +21,10 @@ const Projects = () => {
     slidesToScroll: 1,
     speed: 2000,
     pauseOnHover: true,
-    arrows: false,
     swipeToSlide: true,
     swipe: true,
     touchMove: true,
+    arrows: false,
 
     responsive: [
       {
@@ -64,10 +68,34 @@ const Projects = () => {
       </div>
       <div className="projectsContainer">
         <Slider {...settings}>
-          <ProjectCard number="1" projectName="El valor justo" />
-          <ProjectCard number="2" projectName="ClimApp" />
-          <ProjectCard number="3" projectName="Mp4 Player" />
-          <ProjectCard number="4" projectName="ToDoList" />
+          <ProjectCard
+            number="1"
+            projectName="El valor justo"
+            pageLink="https://deluxe-lollipop-24649a.netlify.app/"
+            repoLink="https://github.com/MarcosMartilotta/fairPrice"
+            preview={fairPrice}
+          />
+          <ProjectCard
+            number="2"
+            projectName="ClimApp"
+            pageLink="https://marcosmartilotta.github.io/climApp/"
+            repoLink="https://github.com/MarcosMartilotta/climApp"
+            preview={climApp}
+          />
+          <ProjectCard
+            number="3"
+            projectName="Mp4 Player"
+            pageLink="https://marcosmartilotta.github.io/reproductor_mp4/"
+            repoLink="https://github.com/MarcosMartilotta/reproductor_mp4"
+            preview={mp4Player}
+          />
+          <ProjectCard
+            number="4"
+            projectName="ToDoList"
+            pageLink="https://marcosmartilotta.github.io/ToDoList/"
+            repoLink="https://github.com/MarcosMartilotta/ToDoList"
+            preview={todoList}
+          />
         </Slider>
       </div>
     </StyledProjects>
