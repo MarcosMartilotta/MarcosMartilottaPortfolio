@@ -6,7 +6,7 @@ const Footer = () => {
       <ul>
         <li>
           <a
-            href="https://drive.google.com/file/d/19qpPy-GhBDOg2JLQnW0ndVSPy-U32fxw/view?usp=share_link"
+            href="https://drive.google.com/file/d/1wpO08MoRCxC-jhLprqFFZpAli4vLYZsD/view?usp=sharing"
             target="_blank"
           >
             Download my CV
