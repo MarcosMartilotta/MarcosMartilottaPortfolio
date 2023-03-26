@@ -47,7 +47,7 @@ export const Card = styled.div`
         text-shadow: 0px -1px 3px rgba(0, 0, 0, 0.99);
         cursor: pointer;
 
-        @media (min-width: 568px) {
+        @media (min-width: 768px) {
           font-size: 2.5rem;
         }
       }
