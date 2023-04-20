@@ -1,73 +1,72 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/theme";
 export const HamburguerContainer = styled.div`
-  position: absolute;
-  right: 2rem;
-  width: 6rem;
-  height: 6rem;
-  background-color: ${theme.backgroundColor};
-  display: flex;
-  &:hover {
-    cursor: pointer;
-  }
+	position: absolute;
+	right: 2rem;
+	width: 4rem;
+	height: 4rem;
+	background-color: ${theme.backgroundColor};
+	display: flex;
+	&:hover {
+		cursor: pointer;
+	}
 
-  @media (min-width: 576px) {
-    display: none;
-  }
-  .hamburguerIcon {
-    position: relative;
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    transition: 0.5s;
+	@media (min-width: 576px) {
+		display: none;
+	}
+	.hamburguerIcon {
+		position: relative;
+		width: 80%;
+		height: 80%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		transition: 0.5s;
 
-    span {
-      position: absolute;
-      display: block;
-      height: 0.4rem;
-      width: 100%;
-      background-color: ${theme.letterColor};
-      border-radius: 0.1rem;
-      transition: 0.3s;
-      transition-delay: 0.5s;
-    }
+		span {
+			position: absolute;
+			display: block;
+			height: 0.2rem;
+			width: 100%;
+			background-color: ${theme.letterColor};
+			transition: 0.5s;
+			transition-delay: 0.5s;
+		}
 
-    span:nth-child(1) {
-      top: 0;
-      left: 0;
-      width: 50%;
-    }
-    span:nth-child(2) {
-      transform: scaleX(1);
-      opacity: 1;
-    }
-    span:nth-child(3) {
-      bottom: 0;
-      right: 0;
-      width: 50%;
-    }
-  }
-  &.active span:nth-child(1) {
-    width: 100%;
-    transform: translateY(2.4rem);
-    transition-delay: 0s;
-  }
-  &.active span:nth-child(2) {
-    transform: scaleX(0);
-    opacity: 0;
-    transition-delay: 0s;
-  }
+		span:nth-child(1) {
+			top: 0;
+			left: 0;
+			width: 50%;
+		}
+		span:nth-child(2) {
+			transform: scaleX(1);
+			opacity: 1;
+		}
+		span:nth-child(3) {
+			bottom: 0;
+			right: 0;
+			width: 50%;
+		}
+	}
+	&.active span:nth-child(1) {
+		width: 100%;
+		transform: translateY(1.05rem);
+		transition-delay: 0s;
+	}
+	&.active span:nth-child(2) {
+		transform: scaleX(0);
+		opacity: 0;
+		transition-delay: 0s;
+	}
 
-  &.active span:nth-child(3) {
-    bottom: 2rem;
-    width: 100%;
-    transform: rotate(90deg);
-    transition-delay: 0s;
-  }
+	&.active span:nth-child(3) {
+		bottom: 2rem;
+		width: 100%;
+		transform: rotate(90deg);
+		transition-delay: 0s;
+	}
 
-  &.active .hamburguerIcon {
-    transform: rotate(315deg);
-  }
+	&.active .hamburguerIcon {
+		transform: rotate(315deg);
+	}
 `;
