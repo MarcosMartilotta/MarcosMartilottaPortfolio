@@ -3,8 +3,8 @@ import { theme } from "../../../theme/theme";
 export const HamburguerContainer = styled.div`
 	position: absolute;
 	right: 2rem;
-	width: 4rem;
-	height: 4rem;
+	width: 3rem;
+	height: 3rem;
 	background-color: ${theme.backgroundColor};
 	display: flex;
 	&:hover {
@@ -50,7 +50,7 @@ export const HamburguerContainer = styled.div`
 	}
 	&.active span:nth-child(1) {
 		width: 100%;
-		transform: translateY(1.05rem);
+		transform: translateY(0.25rem);
 		transition-delay: 0s;
 	}
 	&.active span:nth-child(2) {
