@@ -71,7 +71,7 @@ const Projects = () => {
 				<Slider {...settings}>
 					<ProjectCard
 						number="1"
-						projectName="FarmaTurno  "
+						projectName="Farma Turno"
 						pageLink="https://c11-02-m-mern-farmaturno.vercel.app/"
 						repoLink="https://github.com/No-Country/c11-02-m-mern-farmaturno"
 						preview={farmaturno}
